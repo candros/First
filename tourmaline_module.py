@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 
 #This class function takes a *.mat file, containing a struct called "stDataAll"
-#with cSamples as the first entry, mData as the 2nd, and vWL as the 5th entry,
 #and a pickled model file called "tourmaline_model". The function
 #predict_location provides a list labeling each input as either Brazil or
 #Africa. The predict function provides a dataframe with the sample names, their
